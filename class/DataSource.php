@@ -12,16 +12,16 @@ class DataSource
 
     // PHP 7.1.0 visibility modifiers are allowed for class constants.
     // when using above 7.1.0, declare the below constants as private
-    const HOST = 'localhost';
+    const HOST = 'mysql-csn.csn.svc.cluster.local';
 
     const USERNAME = 'root';
 
-    const PASSWORD = '';
+    const PASSWORD = 'XWN3tm4kTJmXkWqb';
 
-    const DATABASENAME = 'blog_eg';
+    const DATABASENAME = 'sampledb';
 
     private $conn;
-
+    
     /**
      * PHP implicitly takes care of cleanup for default connection types.
      * So no need to worry about closing the connection.
